@@ -74,8 +74,9 @@ while True:
        if matches[best_match_index]:
            name = known_face_names[best_match_index]
            print(name)
+           #mastodon 主页网址  API格式
            url = 'https://mastodon.silkroad.net/api/v1/statuses'
-           auth = {'Authorization': 'Bearer ' + '51xzVCBZendEnJNWb6agRMr_ALxmiBMhjftB-Jtc8iQ'}
+           auth = {'Authorization': 'Bearer ' + '51xzVCBZendEnJNWb6agRMr_ALxmiBMhjftB-Jtc8iQ'}#mastodon 访问令牌
            params = {'status': 'student number:'+name}
 
 
